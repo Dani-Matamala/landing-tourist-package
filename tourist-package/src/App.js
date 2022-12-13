@@ -1,7 +1,15 @@
-
+import { Banner } from "./components/Banner";
+import { Explanation } from "./components/Explanation";
+import { Presentation } from "./components/Presentation";
+import { StickyFooter } from "./components/StickyFooter";
 function App() {
   return (
-    <h1>Paquete turistico</h1>
+    <>
+      <Banner />
+      <Explanation />
+      <Presentation />
+      <StickyFooter />
+    </>
   );
 }
 
