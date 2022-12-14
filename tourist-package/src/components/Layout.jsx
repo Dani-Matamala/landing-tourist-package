@@ -6,7 +6,7 @@ export const Layout = ({children}) => {
     <CustomLayout>
       {children}
     </CustomLayout>
-  )
+  ) 
 }
 
 const CustomLayout = styled("div")(({ theme }) => ({
