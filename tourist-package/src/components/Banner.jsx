@@ -24,3 +24,14 @@ const CustomBanner = styled(Paper)(({ theme }) => ({
     fontWeight: "bold",
     position: "relative"
 }))
+
+const CustomTitle = styled()(({ theme }) => ({
+    background: "#000",
+    opacity: 0.8,
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: 'center',
+    position: 'absolute',
+}))
+
+ 
